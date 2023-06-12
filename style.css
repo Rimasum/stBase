@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.list {
+  list-style: none;
+  margin-top: 15px;
+}
+.list li {
+  display: inline;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  background-color: rgb(51, 9, 90);
+  color: white;
+}
+/* .list li:first-child {
+  margin-left: 0;
+} */
+.list li a {
+  text-decoration: none;
+  color: white;
+}
