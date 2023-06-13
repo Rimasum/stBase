@@ -11,7 +11,7 @@
 <body>
     <h1>This is Heading</h1>
     <?php
-    $sArr = array("Home", "Services", "About", "Contact us", "Rayeed");
+    $sArr = array("Home", "Services", "About", "Contact us", "Rayeed", "Rizwan");
     $link = array("https://www.google.com", "https://www.facebook.com", "/stbase/index", "Contact us", "Rayeed");
     // echo count($sArr);
     // $st = 'Students';
