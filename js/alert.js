@@ -1,7 +1,4 @@
 let alert = document.getElementById('showErr');
-setTimeout(myGreeting, 5000);
-console.log('Masum', alert.innerHTML);
-
-function myGreeting() {
+setTimeout(function () {
   alert.style.display = 'none';
-}
+}, 5000);

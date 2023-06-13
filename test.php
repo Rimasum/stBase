@@ -23,15 +23,17 @@
     // echo '<ul class="list">' . $list . '</ul> <br>';
     ?>
 
-    <ul class="list">
+    <ul class="list" id="notification">
         <?php
         for ($i = 0; $i < count($sArr); $i++) {
         ?>
-            <li><a href="<?php echo $link[$i] . ".php"; ?>"><?php echo $sArr[$i]; ?></a></li>
+            <!-- <li><a href="<?php echo $link[$i] . ".php"; ?>"><?php echo $sArr[$i]; ?></a></li> -->
+            <li><a href="#"><?php echo $sArr[$i]; ?></a></li>
         <?php
         }
         ?>
     </ul>
+    <!-- <script src="main.js"></script> -->
 </body>
 
 </html>
